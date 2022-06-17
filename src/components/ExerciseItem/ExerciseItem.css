@@ -1,0 +1,50 @@
+.exercise-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+    background-color: #fff;
+    user-select: none;
+}
+
+.exercise-item .exercise-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exercise-item .exercise-details .buttons {
+    opacity: 0;
+    transition: all .2s;
+}
+
+.exercise-item .exercise-details:hover .buttons {
+    opacity: 1;
+}
+
+.exercise-item .exercise-item-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exercise-item .exercise-item-form input {
+    flex: 1;
+}
+
+.exercise-item .exercise-item-form .button {
+    margin-left: .5em;
+}
+
+.exercise-item .exercise-set-list {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: .5rem;
+}

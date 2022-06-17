@@ -1,0 +1,25 @@
+.timer {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.timer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.timer-display {
+    font-family: monospace;
+    font-size: 2rem;
+}
+  
+.timer-controls button {
+    margin: 5px;
+    color: white;
+}
+
+.timer-controls button:disabled {
+    color: gray;
+}

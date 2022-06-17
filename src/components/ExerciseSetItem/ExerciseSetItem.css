@@ -1,0 +1,42 @@
+.exercise-set-details,
+.exercise-set-form {
+    display: flex;
+    align-items: center;
+}
+
+.exercise-set-details {
+    cursor: pointer;
+}
+
+.exercise-set-details .buttons {
+    opacity: 0;
+    transition: all .2s;
+    margin-left: auto;
+}
+
+.exercise-set-details:hover .buttons {
+    opacity: 1;
+}
+
+.exercise-set-form .buttons {
+    margin-left: 1rem;
+}
+
+.exercise-set-form input {
+    flex: 1;
+}
+
+.exercise-set-form input + input {
+    margin-left: 1rem;
+}
+
+.set-number {
+    background-color: lightgray;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 1rem;
+}

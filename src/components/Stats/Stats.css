@@ -1,0 +1,14 @@
+.stats {
+    margin: 10px;
+    text-align: left;
+}
+
+.stats p {
+    margin: 0;
+    font-size: .7em;
+}
+  
+.stats .number {
+    font-family: monospace;
+    font-size: 2rem;
+}
